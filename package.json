@@ -1,24 +1,21 @@
 {
-  "name": "jekyll-theme-chirpy",
-  "version": "4.3.4",
-  "description": "A minimal, sidebar, responsive web design Jekyll theme that focuses on text presentation.",
+  "name": "daymarvi.github.io",
+  "version": "1.0.0",
+  "description": "Personal blog of Daymarvi: sysadmin, automation and home networking.",
   "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
+    "url": "git+https://github.com/Daymarvi/daymarvi.github.io.git"
   },
-  "author": "Cotes Chung",
+  "author": "Daymarvi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
+    "url": "https://github.com/Daymarvi/daymarvi.github.io/issues"
   },
-  "homepage": "https://github.com/cotes2020/jekyll-theme-chirpy#readme",
+  "homepage": "https://daymarvi.github.io",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",

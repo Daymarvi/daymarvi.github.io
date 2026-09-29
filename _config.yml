@@ -1,7 +1,12 @@
 # The Site Configuration
 
-# Import the theme
-theme: jekyll-theme-chirpy
+# Jekyll plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
@@ -18,14 +23,13 @@ timezone: Europe/Paris
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: Daymarvi                        # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Sysadmin, automation & home networking   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Home and professional projects: server administration,
+  system engineering, automation and home networking.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://daymarvi.github.io/'
@@ -150,8 +154,6 @@ compress_html:
     envs: [development]
 
 exclude:
-  - '*.gem'
-  - '*.gemspec'
   - tools
   - docs
   - README.md
