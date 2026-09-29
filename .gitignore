@@ -3,14 +3,11 @@
 !.git*
 !.editorconfig
 !.nojekyll
-!.travis.yml
+!.ruby-version
 
 # bundler cache
 _site
 vendor
-
-# rubygem
-*.gem
 
 # npm dependencies
 node_modules
